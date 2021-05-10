@@ -1,0 +1,728 @@
+{
+  "console": {
+    "crumb": {
+      "count": "项",
+      "all": "全部",
+      "gradePhase": "学段",
+      "subject": "学科",
+      "version": "教材",
+      "textbook": "年级",
+      "chapter": "单元",
+      "section": "单元",
+      "junior": "初中",
+      "senior": "高中",
+      "prefixText": "已选中"
+    },
+    "preview": {
+      "create": "基于此课件创建"
+    },
+    "sidebar": {
+      "create": "新建",
+      "courseware": "课件",
+      "history": "最近",
+      "resource": "资源",
+      "exercise": "习题数据"
+    },
+    "courseware": {
+      "defaultName": "无标题",
+      "searchPlaceholder": "搜索课件",
+      "share": {
+        "titlePrefix": "【NOBOOK课件管理】",
+        "wechatPopoverTitle": "分享到微信朋友圈"
+      },
+      "copySuffix": "副本",
+      "tooltip": {
+        "edit": "编辑",
+        "play": "播放",
+        "share": "分享",
+        "copy": "复制",
+        "check": "勾选",
+        "remove": "删除"
+      },
+      "message": {
+        "removeConfirm": "确定删除此课件？",
+        "copySuccess": "课件复制成功！",
+        "removeSuccess": "课件删除成功！",
+        "renameSuccess": "重命名成功！",
+        "needSyncToCloud": "课件尚未同步至云端，不能分享！",
+        "emptyTitle": "标题不能为空！",
+        "titleTooLong": "标题不允许超过 20 个字符！",
+        "invalidTitle_illegalCharacters": "标题中不允许包含特殊字符：\\ \/ ",
+        "titleExists": "文件已存在，请重新输入文件名！"
+      },
+      "menu": {
+        "createBaseLab": "基于此实验创建"
+      }
+    },
+    "confirmModal": {
+      "vipTip-1": {
+        "okText": "咨询",
+        "cancelText": "取消",
+        "text": "尊敬的用户您好",
+        "caption": "非常抱歉, VIP用户方可编辑此VIP课件。"
+      },
+      "vipTip-2": {
+        "okText": "咨询",
+        "cancelText": "取消",
+        "text": "尊敬的用户您好",
+        "caption": "非常抱歉, 其中的VIP课件将不能被导出。"
+      },
+      "vipTip-3": {
+        "okText": "咨询",
+        "cancelText": "取消",
+        "text": "尊敬的用户您好",
+        "caption": "非常抱歉, VIP用户方可导出此VIP课件。"
+      }
+    },
+    "resource": {
+      "searchPlaceholder": "搜索资源"
+    },
+    "exercise": {
+      "searchPlaceholder": "搜索课堂数据",
+      "operation": {
+        "filed": "归档",
+        "restore": "还原"
+      },
+      "legend": {
+        "001": "平均正确率",
+        "002": "正确率"
+      },
+      "field": {
+        "numberOfStudents": "听课学员 {{students.length}} 人",
+        "numberOfProblems": "（{{exercises.length}} 道题）",
+        "ranking": "本次排名",
+        "correctRate": "正确率：",
+        "right": "正确",
+        "wrong": "错误",
+        "rightWithColon": "正确：",
+        "wrongWithColon": "错误：",
+        "studentAnswer": "学生答案："
+      },
+      "problemList": {
+        "titleForTab": "习题列表",
+        "problemsTable": {
+          "number": "题号",
+          "type": "题型",
+          "description": "题干",
+          "statistics": "正确/错误"
+        },
+        "statisticsModal": {
+          "description": "题目",
+          "statistics": "答题情况",
+          "optionSelectedStatistics": "选择 {{name}} 的学生（正确答案为 {{answer}})"
+        }
+      },
+      "studentList": {
+        "titleForTab": "学员列表",
+        "studentsTable": {
+          "name": "正确/错误",
+          "statistics": "正确/错误"
+        },
+        "problemsTable": {
+          "main": "题干",
+          "statistics": "答题情况"
+        }
+      },
+      "message": {
+        "dataNotExists": "没有数据",
+        "renameClassNameSuccess": "课堂名称修改成功",
+        "titleForRenameClass": "重命名班级名称",
+        "fileClassConfirm": "确定要归档班级 “{{className}}” 及相应的课堂数据么？ 归档后，可归档管理中查看此班级的数据",
+        "removeClassConfirm": "确定要删除班级 “{{className}}” 及相应的课堂数据么？（警告：此操作无法撤销） 是否确定删除？",
+        "removeClassDataTitle": "确定要删除名称为 “{{name}}” 课堂数据么？",
+        "removeClassDataConfirm": "<p>删除后，相应的学生数据也被删除</p><p>（警告：此操作无法撤销）</p><p>是否确定删除？</p>"
+      },
+      "quesType": {
+        "1": "单选题",
+        "2": "多选题",
+        "4": "填空题",
+        "5": "判断题"
+      }
+    },
+    "import": {
+      "btnCaption": "导入课件",
+      "message": {
+        "success": "导入成功！",
+        "successPartially": "部分导入成功！",
+        "invalidFile": "您导入了一份无效的文件！"
+      }
+    },
+    "export": {
+      "btnCaption": "导出课件",
+      "btnOfflineCaption": "-离线版本",
+      "message": {
+        "needSyncToCloud": "此课件尚未同步至云端，暂时不能导出为离线版课件。",
+        "needCheckFiles": "您没有勾选想要导出的课件！"
+      }
+    },
+    "common": {
+      "copy": "复制",
+      "remove": "删除",
+      "ok": "确定",
+      "cancel": "取消",
+      "rename": "重命名",
+      "copySuccess": "复制成功！"
+    }
+  },
+  "others": {
+    "user_nh": "尊敬的客户您好",
+    "sorry_vip": "非常抱歉，此功能只针对VIP用户开放。",
+    "advisory": "咨询",
+    "cancel": "取消"
+  },
+  "player": {
+    "confirmDialog": {
+      "default": {
+        "ok": "确定",
+        "cancel": "取消",
+        "text": "提示信息！",
+        "caption": "提示注解信息"
+      },
+      "classOver": {
+        "ok": "结束",
+        "cancel": "取消",
+        "text": "确定要结束授课吗？",
+        "caption": "结束授课，学生端将自动退出课堂。"
+      }
+    },
+    "tools": {
+      "brushWeight": "粗细："
+    },
+    "modelOfQR": {
+      "title": "扫码进入课堂（已加入 {{audienceCount}} 人）",
+      "invitationCode": "邀请码：",
+      "cloudMode": "云端模式："
+    },
+    "quiz": {
+      "prefixOfTitle": "测验 "
+    },
+    "vipTip": "动手实验只对 VIP 用户开放"
+  },
+  "editor": {
+    "tooltip": {
+      "undo": "撤 销",
+      "redo": "返 回",
+      "delete": "删 除",
+      "settings": "设 置",
+      "text": "文 字",
+      "image": "图 片",
+      "shape": "图 形",
+      "chart": "图 表",
+      "table": "表 格",
+      "media": "媒 体",
+      "animate": "动 画",
+      "thirdApplication": "第三方应用",
+      "lab": "实 验",
+      "exercise": "习 题",
+      "format": "预设样式",
+      "shadow": "阴影",
+      "opacity": "透明度",
+      "reflect": "倒影",
+      "rotate": "翻转",
+      "borderWidth": "边框宽度",
+      "borderType": "边框类型",
+      "borderColor": "边框颜色",
+      "cellBorderColor": "单元格边框颜色",
+      "cellBackgroundColor": "单元格背景颜色",
+      "clearFormat": "清除样式",
+      "fontFamily": "字体",
+      "fontSize": "字号",
+      "bold": "粗体",
+      "italic": "斜体",
+      "underline": "下划线",
+      "strikeThrough": "删除线",
+      "textAlign": "文本对齐",
+      "lineHeight": "行高",
+      "color": "字体颜色",
+      "backgroundColor": "背景颜色",
+      "sub": "下标",
+      "sup": "上标",
+      "listStyleType": "编号列表",
+      "fillColor": "填充色",
+      "lineColor": "线条颜色",
+      "lineWidth": "线条粗细",
+      "lineType": "线条类型",
+      "collectionToMyExercise": "收藏至\"我的题库\"",
+      "addToExercise": "添加至习题",
+      "alignTop": "上对齐",
+      "alignRight": "右对齐",
+      "alignBottom": "下对齐",
+      "alignLeft": "左对齐",
+      "alignVerticalCenter": "垂直居中对齐",
+      "alignVerticalDispersion": "垂直分散对齐",
+      "alignHorizontalCenter": "水平居中对齐",
+      "alignHorizontalDispersion": "水平分散对齐"
+    },
+    "popover": {
+      "collectionExercise": "点此可将当前习题修改结果同步至\"我的题库\""
+    },
+    "title": {
+      "pie": "饼图",
+      "line": "折线图",
+      "bar": "柱状图",
+      "radar": "雷达图",
+      "scatter": "散点图",
+      "funnel": "漏斗图",
+      "open": "弹出",
+      "close": "隐藏",
+      "delete": "删除",
+      "right": "正确",
+      "wrong": "错误",
+      "new": "新建",
+      "setAnswerTime": "设置答题时间"
+    },
+    "option": {
+      "default": "默认",
+      "slide": "幻灯片",
+      "zoom": "放大",
+      "concave": "凹面",
+      "convex": "凸面",
+      "in": "进入",
+      "out": "离开",
+      "fadeIn": "渐现",
+      "fadeOut": "渐隐",
+      "bounce": "弹跳",
+      "bounceIn": "弹入",
+      "bounceOut": "弹动离开",
+      "lightSpeedIn": "快速进入",
+      "lightSpeedOut": "快速移出",
+      "rotate": "旋转",
+      "rotateIn": "旋转进入",
+      "rotateOut": "旋转离开",
+      "rotateOutDownRight": "向左下旋出",
+      "rotateOutDownLeft": "向右下旋出",
+      "rotateOutUpRight": "向左上旋出",
+      "rotateOutUpLeft": "向右上旋出",
+      "zoomIn": "放大进入",
+      "zoomOut": "缩小离开",
+      "rollIn": "翻滚进入",
+      "rollOut": "翻滚离开",
+      "flip": "翻转",
+      "flipInX": "横向翻入",
+      "flipInY": "纵向翻入",
+      "flipOutX": "横向翻出",
+      "flipOutY": "纵向翻出",
+      "slideIn": "滑入",
+      "slideInUp": "向上滑入",
+      "slideInDown": "向下滑入",
+      "slideInLeft": "从左滑入",
+      "slideInRight": "从右滑入",
+      "slideOut": "滑出",
+      "slideOutUp": "向上滑出",
+      "slideOutDown": "向下滑出",
+      "slideOutLeft": "向左滑出",
+      "slideOutRight": "向右滑出",
+      "deep": "强调",
+      "flash": "闪烁",
+      "pulse": "脉动",
+      "rubberBand": "橡皮圈",
+      "shake": "摇动",
+      "swing": "摆动",
+      "tada": "波动",
+      "up": "向上",
+      "down": "向下",
+      "right": "向左",
+      "left": "向右",
+      "onClick": "当点击时",
+      "onIn": "进场时",
+      "afterPrevOver": "在与上一动画结束后",
+      "withPrev": "与上一动画同时",
+      "allType": "全部类型",
+      "singleSelectionQuestion": "单选题",
+      "multiSelectionQuestion": "多选题",
+      "judgeQuestion": "判断题",
+      "fillQuestion": "填空题",
+      "allQuestions": "全部题型",
+      "singleSelection": "单选",
+      "multiSelection": "多选",
+      "judge": "判断",
+      "all": "全部",
+      "junior": "初中",
+      "senior": "高中",
+      "answerTime": "答题时间",
+      "minute": "分钟",
+      "auto": "自由",
+      "options": "选项",
+      "web": "网页",
+      "ppt": "幻灯片"
+    },
+    "button": {
+      "close": "关闭",
+      "sure": "确定",
+      "uploadImage": "上传图片",
+      "applyToAllPage": "应用到全部页面",
+      "insertMedia": "插入媒体",
+      "insertLink": "插入链接",
+      "cancel": "取消",
+      "insert": "插入",
+      "addAnimation": "添加动画",
+      "previewAnimation": "预览动画",
+      "inputQuestionLib": "录入题库",
+      "newExercise": "新建习题",
+      "singleSelection": "单选",
+      "multiSelection": "多选",
+      "judge": "判断",
+      "fillBlanks": "填空",
+      "saveExercise": "保存习题",
+      "apply": "应用",
+      "delete": "清除"
+    },
+    "heading": {
+      "audio": "音频",
+      "video": "视频",
+      "publicMaterial": "公共素材",
+      "myGallery": "我的图库",
+      "publicExercise": "公共题库",
+      "myExercise": "我的题库",
+      "publicExperiment": "实验库",
+      "createExperiment": "新建实验",
+      "editorExperiment": "编辑实验",
+      "myExperiment": "我的实验",
+      "notVipNotice": "公共实验仅对VIP用户开放"
+    },
+    "label": {
+      "mediaName": "媒体名称:",
+      "mediaLink": "媒体地址:",
+      "grade": "年级：",
+      "year": "年份：",
+      "type": "类型：",
+      "source": "来源：",
+      "mainTitle": "主 标 题：",
+      "lineType": "连线类型：",
+      "line": "直线",
+      "curve": "曲线",
+      "xAxis": "X轴单位：",
+      "yAxis": "Y轴单位：",
+      "setRightAnswer": "设置的正确答案为：",
+      "linkTo": "链接至：",
+      "ppt": "幻灯片：",
+      "link": "链接："
+    },
+    "placeholder": {
+      "inputMediaName": "请输入媒体名称",
+      "inputMediaLink": "请输入媒体地址",
+      "folderName": "文件夹名称"
+    },
+    "ask": {
+      "sureToDeleteResource": "确定要删此资源？",
+      "resourceWillBeClear": "文件夹内的资源也会被删除！"
+    },
+    "player": {
+      "startPlayer": "开始授课",
+      "currentPagePlayer": "从当前页授课"
+    },
+    "settings": {
+      "settingBackground": "设置背景",
+      "advanceOption": "高级筛选"
+    },
+    "resource": {
+      "isUploading": "正在上传..."
+    },
+    "text": {
+      "defaultText": "默认文本"
+    },
+    "image": {
+      "my": "我的",
+      "uploadImageIntroduce": "图片将上传到\"我的图库\"",
+      "newFolder": "新建文件夹",
+      "folderName": "新建文件夹"
+    },
+    "shape": {
+      "common": "常用",
+      "physics": "物理",
+      "lib": "库"
+    },
+    "media": {
+      "help": {
+        "audioIntroduce": "音频只能上传mp3格式",
+        "videoIntroduce": "视频的通用代码请",
+        "viewHelp": "查看帮助"
+      }
+    },
+    "animation": {
+      "pptAnimation": "幻灯片动画",
+      "-1": "对象",
+      "1": "文字",
+      "2": "图片",
+      "3": "图形",
+      "6": "表格",
+      "7": "图表",
+      "10": "物理实验",
+      "11": "电路图",
+      "12": "化学实验",
+      "13": "习题",
+      "animationTime": "动画时间"
+    },
+    "thirdApplication": {
+      "modalTitle": "插入第三方Web应用"
+    },
+    "exercise": {
+      "exerciseLib": "的题库",
+      "myExerciseLib": "我的题库",
+      "edit": {
+        "setBlank": "设为填空",
+        "deleteBlank": "取消填空"
+      }
+    },
+    "toolbar": {
+      "format": {
+        "text": "格式",
+        "menu": {
+          "bigTitle": "大标题",
+          "smallTitle": "小标题",
+          "standardContent": "标准正文"
+        }
+      },
+      "clearFormat": {
+        "text": "还原"
+      },
+      "listStyleType": {
+        "menu": {
+          "decimal": "1. 2. 3.",
+          "lowerAlpha": "a. b. c.",
+          "upperAlpha": "A. B. C.",
+          "circle": "○ 空心圆",
+          "disc": "● 实心圆",
+          "square": "■ 实心方形"
+        }
+      },
+      "editChartData": {
+        "text": "编辑图表数据",
+        "modalTitle": "编辑图表数据"
+      },
+      "style": {
+        "text": "样式",
+        "menu": {
+          "none": "无"
+        }
+      },
+      "setColor": "配色",
+      "layout": "布局",
+      "none": "无"
+    },
+    "contextMenu": {
+      "selectAll": "全选",
+      "copy": "复制",
+      "cut": "剪切",
+      "paste": "粘贴",
+      "delete": "删除",
+      "moveUp": "上移一层",
+      "moveDown": "下移一层",
+      "atBottom": "置于底层",
+      "atTop": "置于顶层",
+      "editLink": "编辑链接",
+      "cropImage": "裁剪图片",
+      "new": "新建",
+      "edit": "编辑",
+      "removeCol": "删除这一列",
+      "addColLeft": "在这一列左侧插入",
+      "addColRight": "在这一列右侧插入",
+      "mergeCell": "合并单元格",
+      "cancelMergeCell": "取消合并单元格",
+      "averageCellWidth": "均分单元格宽度",
+      "averageCellHeight": "均分单元格高度",
+      "insertAtTop": "在上方插入",
+      "insertAtRight": "在右侧插入",
+      "insertAtBottom": "在下方插入",
+      "insertAtLeft": "在左侧插入",
+      "pasteToTop": "粘贴到上方",
+      "pasteToBottom": "粘贴到下方",
+      "deleteRow": "删除行",
+      "deleteCol": "删除列",
+      "copyRow": "复制行",
+      "cutRow": "剪切行",
+      "alignLeft": "左对齐",
+      "alignCenter": "居中",
+      "alignRight": "右对齐"
+    },
+    "message": {
+      "0001": "上传请先登录!",
+      "0002": "请输入媒体名称",
+      "0003": "名称重复,请换一个名称!",
+      "0004": "请上传正确媒体类型",
+      "0005": "标题长度不能超过",
+      "0006": "个字符",
+      "0007": "您已经创建10个习题,不能再多了哦~",
+      "0008": "您还没设置习题答案",
+      "0009": "更新成功",
+      "0010": "保存失败!",
+      "0011": "您还未登录,无法操作",
+      "0012": "添加成功",
+      "0013": "添加失败!",
+      "0014": "课堂名称修改成功",
+      "0015": "删除成功",
+      "0016": "成功添加到我的题库中",
+      "0017": "抱歉,没有找到",
+      "0018": "搜索出错啦",
+      "0019": "没有数据啦",
+      "0020": "没有数据啦,我是有底线的!",
+      "0021": "您没有权限编辑该课件",
+      "0022": "地址有误,或者该音乐地址您没有权限使用!",
+      "0023": "用户未登录,无法保存!",
+      "0024": "操作失败",
+      "0025": "新建文件夹失败",
+      "0026": "重命名成功",
+      "0027": "重命名失败",
+      "0028": "删除失败,稍后再试",
+      "0029": "课件保存成功",
+      "0030": "用户未登录,无法使用上传图片功能!",
+      "0031": "上传失败",
+      "0032": "请选择一个对象添加动画",
+      "0033": "暂时无数据！",
+      "0034": "未命名",
+      "0035": "提示:输入全部题干后，选择要设为填空的文本",
+      "invalidLink": "请输入以http://或https://开头的有效网址"
+    }
+  },
+  "userCenter": {
+    "loginBtn": "登录",
+    "registerBtn": "注册",
+    "logOut": "退出",
+    "forgetPassword": "忘记密码?",
+    "bindPhone": {
+      "title": "绑定手机号立即获取15天vip",
+      "number": "手机号",
+      "code": "输入验证码",
+      "bindBtn": "立即绑定",
+      "getCode": "获取验证码短信",
+      "countdown": "秒后重新发送"
+    },
+    "login": {
+      "normal": {
+        "title": "普通登录",
+        "username": "手机号/用户名",
+        "password": "密码",
+        "loginBtn": "登录",
+        "registerBtn": "注册"
+      },
+      "phone": {
+        "title": "手机快速登录",
+        "number": "手机号",
+        "code": "输入验证码",
+        "getCode": "获取验证码",
+        "countdown": "秒后重新发送",
+        "loginBtn": "登录"
+      },
+      "first": {
+        "title": "该手机号第一次登录,请设置密码",
+        "password": "输入密码(6-18位字母或数字)",
+        "setPasswordBtn": "设置密码",
+        "cancelBtn": "返回",
+        "warning": "为了确保您的账户安全，请勿将账号信息提供给他人／机构"
+      },
+      "other": {
+        "title": "或者使用第三方登录"
+      },
+      "offline": {
+        "title": "离线登录",
+        "username": "手机号/用户名",
+        "password": "密码",
+        "weChatTitle": "微信扫描二维码获取登录码",
+        "getWeChatCodeBtn": "获取登录二维码",
+        "inputLoginCode": "请输入登录码",
+        "loginBtn": "登录"
+      }
+    },
+    "register": {
+      "phone": {
+        "title": "手机号快速注册",
+        "number": "输入手机号",
+        "code": "输入验证码",
+        "getCode": "获取验证码",
+        "countdown": "秒后重新发送",
+        "password": "输入密码(6-18位字母或数字)",
+        "submitBtn": "提交",
+        "cancelBtn": "取消",
+        "loginNow": "点击这里登录"
+      },
+      "success": {
+        "title": "注册成功",
+        "countdown": "秒后自动登录"
+      }
+    },
+    "vip": {
+      "0": "未开通VIP",
+      "1": "VIP截止时间",
+      "-1": "VIP过期"
+    },
+    "help": {
+      "center": "帮助中心",
+      "feedback": "意见反馈"
+    },
+    "tooltip": {
+      "help": "帮助中心/意见反馈",
+      "back": "返回"
+    },
+    "userAgreement": {
+      "title1": "注册代表您已经阅读并同意",
+      "title2": "《NOBOOK用户协议》"
+    },
+    "msg": {
+      "ignore": "忽略此消息",
+      "notice": "通知"
+    },
+    "errorCode": {
+      "3001": "用户名密码不匹配",
+      "3002": "图片验证码错误",
+      "3003": "手机验证码错误",
+      "3004": "手机号不合法",
+      "3005": "请输入手机号/邮箱/用户名",
+      "3006": "请填写验证码",
+      "3007": "请输入密码",
+      "3008": "用户名密码不匹配",
+      "3009": "手机验证码额度已用完",
+      "3010": "手机验证码获取过于频繁",
+      "3011": "手机验证码发送失败",
+      "3012": "手机验证码发送成功",
+      "3013": "用户名不存在",
+      "3014": "账号已锁定",
+      "3015": "登录失败",
+      "3016": "请输入产品标识",
+      "3017": "产品标识错误",
+      "3018": "请登录",
+      "3019": "设备信息不存在",
+      "3020": "设备平台信息错误",
+      "3021": "设备已超限额",
+      "3022": "参数错误",
+      "5001": "邮箱已存在",
+      "5002": "手机号已存在,请更换手机号",
+      "5003": "手机验证码错误",
+      "5004": "手机验证码错误/过期",
+      "5005": "密码长度只能为6-18位数字、字母、数字字母组合",
+      "5007": "请输入验证码",
+      "5008": "请输入手机号",
+      "5009": "手机号不合法",
+      "5010": "请输入正确的邮箱地址",
+      "5011": "注册失败",
+      "5012": "手机验证码额度已用完,请更换手机号",
+      "5013": "手机验证码获取过于频繁",
+      "5014": "手机验证码发送失败",
+      "5015": "手机验证码发送成功",
+      "5016": "请输入注册类型",
+      "5017": "你的限额已被用完",
+      "5018": "请求过于频繁",
+      "5019": "参数错误",
+      "custom0001": "正在打开的文件不存在",
+      "custom0002": "绑定失败",
+      "custom0003": "请输入22为登录码",
+      "custom0004": "验证失败",
+      "custom0005": "标题不能为空!",
+      "custom0006": "绑定成功",
+      "custom0007": "标题中不允许包含特殊字符: \\ /",
+      "custom0008": "重命名成功!",
+      "custom0009": "文件已存在,请重新输入文件名!",
+      "custom0010": "尊敬的VIP，您的会员服务已到期！",
+      "custom0011": "VIPSSO 用户权限接口模拟 剩余",
+      "custom0012": "天",
+      "custom0013": "请稍后再试"
+    }
+  },
+  "stateBar": {
+    "courseWareTitlePlaceholder": "请输入课件标题",
+    "networkInterruption": "网络中断!",
+    "isSync": "正在与云端进行数据同步..."
+  },
+  "colorPicker": {
+    "recently": "最近"
+  }
+}

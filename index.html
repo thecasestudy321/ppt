@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+  <meta name="apple-mobile-web-app-title" content="Title">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no, email=no">
+  <title>NB小学科学教学平台</title>
+  <meta name="description" content="小学科学实验,小学科学资源,小科教学,创客,虚拟实验,仿真实验,物理实验,化学实验,生物实验,教学软件,教育,科学课,课件,ppt">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="shortcut icon" href="assets/icon/favicon.ico">
+  <!-- base url -->
+  <base href="">
+
+  <script src="assets/js/browser.check.js"></script>
+  <script src="assets/js/jquery-v3.2.1.min.js"></script>
+  <script src="assets/js/html2canvas.min.js"></script>
+
+  <!-- env: production -->
+  
+  <script>
+    window.__nb_cloud__ = true;
+    window.__nw_url__ = 'http://127.0.0.30';
+    window._nb_resource_square_share_api_ = 'http://127.0.0.30'; // 分享到资源广场的链接,生产
+  </script>
+  
+ <style>
+    #preloader {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 999999999;
+      background: #181e25;
+      overflow: hidden;
+    }
+    console-header.container-fluid{display: none}
+    console-header{display: none}
+    .header-container{display: none}
+    console-header .header-container{display: none}
+    #preloader > span {
+      display: table;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+    #preloader > span > span {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  </style>
+<script type="text/javascript" src="polyfills.c04bfcc77765686f72f9.bundle.js" defer></script><script type="text/javascript" src="vendor.fdb4e12fa72e6e7bde0d.bundle.js" defer></script><script type="text/javascript" src="main.b089e54b93d016de995a.bundle.js" defer></script></head>
+
+<body>
+<!-- Enable bootstrap 4 theme for ngx-bootstrap -->
+<script>window.__theme = 'bs4';</script>
+<app></app>
+<div id="container" class="iframe-url-popup player-popup use-fullscreen-api" style="background-color: black; visibility: inherit;">
+  <iframe allowFullScreen="true" id="screeniframe" name="screeniframe" frameborder="0" scrolling="no" style="background-color:#000000;position: relative; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; visibility: hidden; display: none;" src="about:blank"></iframe>
+</div>
+<div id="preloader">
+  <!-- <div></div> -->
+  <span>
+    <span><img src="assets/img/science-loading.gif" /></span>
+  </span>
+</div>
+
+
+
+</body>
+</html>
